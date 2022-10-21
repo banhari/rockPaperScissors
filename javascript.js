@@ -5,3 +5,9 @@ console.log(computerSelection, choices[computerSelection]);
 function getComputerChoice() {
   return choices[computerSelection];
 }
+
+const playerSelection = window.prompt();
+
+function playRound(getComputerChoice, playerSelection) {
+  
+}
